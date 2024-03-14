@@ -1,0 +1,130 @@
+html{
+  width: fit-content;
+}
+header h1 {
+  display: inline
+  
+}
+
+header h3 {
+  display: inline
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 4%;
+  position: sticky
+}
+#username{
+  margin-left: 5px;
+  text-shadow: 1px 2px grey;
+}
+#header-button {
+  margin-left: 30%;
+  display: inline
+}
+#header-button button{
+ font-size: 15px;
+ width: 50px;
+ padding: 0;
+}
+
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 75%;
+}
+
+
+nav {
+  
+  display: grid;
+  height: fit-content;
+  
+  
+  border: 1px solid rgb(21, 48, 226);
+  border-radius: 10px;
+
+}
+
+nav button {
+  margin: 5px;
+  max-height: 40px;
+}
+
+search {
+  border: 1px solid rgb(21, 48, 226);
+  border-radius: 10px;
+ 
+  margin-bottom: 10px;
+}
+
+search button {
+  margin: 5px
+}
+search form {
+  margin-top: 5px;
+}
+#searchbar{
+  background-color: rgb(232, 239, 245);
+  width: fit-content;
+  margin-left: 12px;
+}
+section {
+border-radius: 10px;
+}
+#manager{
+  width:fit-content
+}
+#basket{
+  border: none;
+}
+#basket h4{
+  display: inline;
+}
+#basket p{
+  margin-left: 5px;
+  display: inline;
+}
+#basket .remove{
+  background-color: rgb(163, 46, 46); 
+  border: none;
+  color: white;
+ font-size: 16px; 
+  cursor: pointer; 
+  width: 20px;
+  height: 20px;
+  display: inline;
+  margin-left: 5px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 0;
+ }
+#basket .remove:hover{
+  background-color: rgb(102, 8, 8);
+}
+#itemlist{
+ 
+  padding:5px;
+  border:none;
+  background-color: rgb(189, 192, 192);
+}
+#itemlist .card{
+ 
+  margin-top: 5px;
+ text-align: center;
+ border: none;
+ background-color: rgb(203, 216, 216);
+}
+#itemlist img{
+  margin-top: 5px;
+  align-self: center;
+  width:200px;
+  border-radius: 5px;
+
+}
